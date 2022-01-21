@@ -161,7 +161,6 @@ footer {
     }
 
     .picture_img {
-        height: 100%;
         border-radius: 0 10px 10px 0;
     }
 
@@ -180,5 +179,38 @@ footer {
     .div_text_p {
         width: 300px;
         margin: 0 0 30px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+        margin-top: 150px;
+    }
+
+    .div_text {
+        width: 80%;
+        grid-area: texto;
+        text-align: left;
+    }
+
+    .div_text_h1 {
+        width: 500px;
+        margin: 120px 0 0;
+        font-size: 4.5rem;
+    }
+
+    .div_text_p {
+        width: 415px;
+        margin: 0 0 30px;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+    }
+
+    .article_h1 {
+        font-size: 2.5rem;
+    }
+    
+    .article_p {
+        font-size: 1.5rem;
     }
 }
